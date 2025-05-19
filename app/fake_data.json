@@ -1,0 +1,82 @@
+[
+  {
+    "id": "tx1001",
+    "user_id": 1,
+    "amount": -150.50,
+    "currency": "RUB",
+    "category": "Transport",
+    "timestamp": "2024-11-01T10:12:00"
+  },
+  {
+    "id": "tx1002",
+    "user_id": 1,
+    "amount": -300.00,
+    "currency": "RUB",
+    "category": "Food",
+    "timestamp": "2024-11-01T12:00:00"
+  },
+  {
+    "id": "tx1003",
+    "user_id": 2,
+    "amount": -450.75,
+    "currency": "RUB",
+    "category": "Entertainment",
+    "timestamp": "2024-11-02T19:30:00"
+  },
+  {
+    "id": "tx1004",
+    "user_id": 1,
+    "amount": -1200.00,
+    "currency": "RUB",
+    "category": "Utilities",
+    "timestamp": "2024-11-03T08:00:00"
+  },
+  {
+    "id": "tx1005",
+    "user_id": 3,
+    "amount": -500.00,
+    "currency": "RUB",
+    "category": "Other",
+    "timestamp": "2024-11-04T14:15:00"
+  },
+  {
+    "id": "tx1006",
+    "user_id": 2,
+    "amount": -220.00,
+    "currency": "RUB",
+    "category": "Food",
+    "timestamp": "2024-11-05T13:00:00"
+  },
+  {
+    "id": "tx1007",
+    "user_id": 3,
+    "amount": -350.00,
+    "currency": "RUB",
+    "category": "Transport",
+    "timestamp": "2024-11-06T09:45:00"
+  },
+  {
+    "id": "tx1008",
+    "user_id": 1,
+    "amount": -700.00,
+    "currency": "RUB",
+    "category": "Entertainment",
+    "timestamp": "2024-11-07T20:00:00"
+  },
+  {
+    "id": "tx1009",
+    "user_id": 2,
+    "amount": -980.00,
+    "currency": "RUB",
+    "category": "Utilities",
+    "timestamp": "2024-11-08T07:30:00"
+  },
+  {
+    "id": "tx1010",
+    "user_id": 3,
+    "amount": -150.00,
+    "currency": "RUB",
+    "category": "Other",
+    "timestamp": "2024-11-09T11:00:00"
+  }
+]

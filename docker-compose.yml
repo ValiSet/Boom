@@ -1,0 +1,23 @@
+services:
+  backend:
+    container_name: backend
+    build: .
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    networks:
+      - app-network
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - "8000:80"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
